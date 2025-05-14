@@ -1,0 +1,114 @@
+/* The header some re-styling such as a good background and also make the links for the other 2 pages better */
+
+header {
+  background-image: url(https://imgs.search.brave.com/OEP2BESHvBmZNAPRlTotjnGvw8-m-KkHRiAagRAZTpM/rs:fit:860:0:0:0/g:ce/aHR0cHM6Ly9wbmdp/bWcuY29tL3VwbG9h/ZHMvcGFsbV90cmVl/L3BhbG1fdHJlZV9Q/Tkc5MzI2MC5wbmc);
+  padding: 0px;
+  Color: white;
+  background-color: darkslategrey;
+  margin: 0;
+  border: solid 5px #0b4a68ab;
+  background-size: 150px;
+}
+
+h1 {
+
+  text-align: center;
+  transition: 1s;
+}
+
+
+
+.header-links {
+
+  text-align: right;
+  color: rgb(194, 154, 103);
+  
+}
+
+.header-links :hover{
+  transition: 0.3s;
+  color: #c9b1b1;
+}
+
+/* #mypalmtree {
+
+  height: 200px;
+  width: 150px;
+  margin-top: 10;
+  margin-bottom: 0px;
+}
+
+*/
+
+a {
+  color: rgb(194, 154, 103);
+}
+
+body {
+
+  background-color: rgb(255, 237, 188) ;
+  font-family: 'Courier New', Courier, monospace;
+  transition: 1s;
+
+}
+
+
+/*TODO: Make the video content to the right side of the page */
+#my-video {
+  border: solid 5px;
+  width: 360px;
+  height: 150px;
+  margin-left: 150px;
+  flex-wrap: wrap;
+
+
+}
+
+#my-audio {
+  padding-top: 15px;
+  margin-left: 180px;
+}
+.languages {
+  background-color: darkslategray;
+  color: white;
+  margin-left: 0;
+  transition: 2s;
+  opacity: 1;
+  padding-top: 2px;
+  padding-bottom: 2px;
+  border: solid 5px #0b4a68ab;
+}
+
+
+
+footer {
+  background-color: darkslategrey;
+  color: #c9b1b1;
+  padding-bottom: 15px;
+  border: solid 5px #0b4a68ab;
+}
+
+.footer-links {
+  color: burlywood;
+  font-size: 10px;
+  bottom: 0px;
+}
+
+.footer-links :hover {
+  transition: 0.3s;
+  color: #c9b1b1;
+}
+
+#footer-text {
+  color:white;
+  text-align: center;
+
+}
+
+/* I need to figure out how to move images from the top of the footer to the bottom */
+.footer-img {
+  width: 50px;
+  height: 40px;
+  
+}
+
